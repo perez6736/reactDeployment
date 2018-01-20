@@ -33,8 +33,6 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
 
 # Dependency directories
 node_modules/
@@ -82,7 +80,6 @@ out/
 
 # Gradle files
 .gradle/
-build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -224,9 +221,6 @@ Temporary Items
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### ReactNative.Gradle Stack ###
-.gradle
-**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
